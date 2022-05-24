@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <body>
+
+    <div class="container">
+      <div class="box">
+        <h1>SBI BPCL Reward Point Calculator</h1>
+        <div class="content">
+          <div class="input">
+            <label for="rewardpoint">Enter Amount (₹)</label>
+            <input type="text" inputmode="numeric" id="rewardpoint">
+          </div>
+          <div class="input">
+            <label for="rewardrate">Reward Point Multiplier (X)</label>
+            <input type="text" inputmode="numeric" id="rewardrate">
+          </div>
+          <button id="calculate">Calculate RP</button>
+        </div>
+        <div class="result">
+          <p>Your Reward Point is</p>
+          <div id="result">00.00</div>
+          <p>Value in Cash is</p>
+          <div id="result2">00.00</div>
+        </div>
+      </div>
+    </div>
+  </body>
+      <script src="index.js" charset="utf-8"></script>
+</html>
